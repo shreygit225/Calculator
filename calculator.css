@@ -77,8 +77,11 @@ button:hover {
 
 }
 
+
+
 .operator:hover {
-  background:rgb(32, 32, 192);
+  background : linear-gradient(90deg, rgb(32, 32, 192) 0%, rgb(32, 32, 192) 0%, rgb(32, 32, 192) 100%);
+
 }
 
 #equal_sign {
