@@ -168,20 +168,20 @@ function showSelectedOperator(){
     var elements = document.getElementsByClassName("operator");
 
     for (var i=0; i<elements.length; i++){
-        elements[i].style.backgroundColor  = "#e68a00";
+        elements[i].style.backgroundColor  = "#1560bd";
     }
 
     if (operator_value == "+"){
-        document.getElementById("plusOp").style.backgroundColor  = "#ffd11a";
+        document.getElementById("plusOp").style.backgroundColor  = "#1560bd";
     }
     else if (operator_value == "-"){
-        document.getElementById("subOp").style.backgroundColor  = "#ffd11a";
+        document.getElementById("subOp").style.backgroundColor  = "#1560bd";
     }
     else if (operator_value == "*"){
-        document.getElementById("multiOp").style.backgroundColor  = "#ffd11a";
+        document.getElementById("multiOp").style.backgroundColor  = "#1560bd";
     }
     else if (operator_value == "/"){
-        document.getElementById("divOp").style.backgroundColor  = "#ffd11a";
+        document.getElementById("divOp").style.backgroundColor  = "#1560bd";
     }
 }
 
@@ -226,7 +226,7 @@ function backspace_remove(){
     var elements = document.getElementsByClassName("operator");
 
     for (var i=0; i<elements.length; i++){
-        elements[i].style.backgroundColor  = "#e68a00";
+        elements[i].style.backgroundColor  = "#1560bd";
     }
 
     var last_num = box.innerText;
@@ -342,7 +342,7 @@ function calculate_percentage(){
 
     // deselect operator if any selected
     for (var i=0; i<elements.length; i++){
-        elements[i].style.backgroundColor  = "#e68a00";
+        elements[i].style.backgroundColor  = "#1560bd";
     }
 }
 
